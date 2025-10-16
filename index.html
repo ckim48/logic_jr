@@ -105,7 +105,7 @@
 
 
 <!-- What is International Logic Olympiad Section -->
-<section id="ilo" class="ilo section">
+<section id="ilo" class="ilo section light-background">
   <div class="container" data-aos="fade-up" data-aos-delay="100">
     <div class="row align-items-center gy-5">
       
@@ -163,7 +163,7 @@
   </div>
 </section>
 <!-- /What is ILO Section -->
-<section id="about" class="about section light-background">
+<section id="about" class="about section">
   <style>
     /* Scoped button styles for this section */
     #about .btn-ilo {
@@ -255,10 +255,104 @@
 </section>
 
 
-<!-- /About Section -->
+<!-- Info Session (Button → Google Form) -->
+<section id="info" class="section py-5 light-background">
+  <style>
+    /* Scoped styles to match your site */
+    #info .card-lite {
+      background: rgba(255,255,255,.85);
+      border: 1px solid rgba(2,6,23,.08);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(2,6,23,.06);
+    }
+    #info .badge-pill {
+      display:inline-block; padding:.35rem .7rem; border-radius:999px;
+      background:#eef2ff; color:#1e255a; font-weight:600; font-size:.85rem;
+      border:1px solid rgba(30,37,90,.12);
+    }
+    #info .icon {
+      width:40px; height:40px; border-radius:10px;
+      display:grid; place-items:center; background:#1e255a; color:#fff;
+    }
+    /* Reuse your button look from #about */
+    #info .btn-ilo { background-color:#1e255a; border-color:#1e255a; color:#fff; }
+    #info .btn-ilo:hover { filter:brightness(.95); color:#fff; }
+    #info .btn-ilo-outline { background:transparent; color:#1e255a; border-color:#1e255a; }
+    #info .btn-ilo-outline:hover { background:#1e255a; color:#fff; }
+  </style>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="60">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="text-center mb-4">
+          <span class="badge-pill">Info Session</span>
+          <h2 class="fw-bold mt-2">ILO Information Session</h2>
+          <p class="text-muted mb-0">
+            Get an overview of the International Logic Olympiad—formats, sample problems, and how to prepare.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+      <!-- Details card -->
+      <div class="col-lg-11 mx-auto" data-aos="fade-up" data-aos-delay="120">
+        <div class="card-lite p-3 p-md-4">
+          <div class="row g-4">
+            <div class="col-md-4 d-flex align-items-start">
+              <div class="icon me-3"><i class="bi bi-calendar-event"></i></div>
+              <div>
+                <strong>Date &amp; Time</strong><br>
+                <span class="text-muted">November 6, 2025 (Thu) · 3:30–3:55 PM</span>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-start">
+              <div class="icon me-3"><i class="bi bi-geo-alt"></i></div>
+              <div>
+                <strong>Location</strong><br>
+                <span class="text-muted">Saint Paul Preparatory Seoul (Room TBA)</span>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-start">
+              <div class="icon me-3"><i class="bi bi-people"></i></div>
+              <div>
+                <strong>Who</strong><br>
+                <span class="text-muted">Grades 6–10 · Beginners welcome</span>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="row g-4 align-items-center">
+            <div class="col-md-8">
+              <ul class="mb-0 text-muted ps-3">
+                <li>What the ILO is &amp; contest formats</li>
+                <li>Sample logic/puzzle styles &amp; practice tips</li>
+                <li>Next steps toward the mock test &amp; contest</li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-md-end">
+              <!-- Replace the href with your actual Google Form link -->
+              <a href="https://forms.gle/YOUR_GOOGLE_FORM_ID"
+                 class="btn btn-ilo px-4"
+                 target="_blank" rel="noopener">
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Info Session -->
+
 
 <!-- Timeline Section -->
-<section id="timeline" class="section py-5">
+<section id="timeline" class="section py-5 ">
   <style>
     /* --- Modern timeline styles (scoped to #timeline) --- */
     #timeline .timeline {
